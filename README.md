@@ -1,7 +1,3 @@
-Since I've seen your backend controllers, your frontend state logic, and your folder structure, I can help you write a README.md that makes your project look professional to anyone visiting your GitHub.
-
-A good README explains what the project is and how to run it. Here is exactly what you should add:
-
 🚀 Project Overview: MERN Enquiry Management System
 This is a full-stack application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to submit enquiry forms and provides an administrative view to Create, Read, Update, and Delete (CRUD) those enquiries in real-time.
 

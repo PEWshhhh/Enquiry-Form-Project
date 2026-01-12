@@ -1,0 +1,13 @@
+# Ignore the heavy folders
+node_modules/
+
+# Ignore local environment variables (where your DB password is)
+.env
+
+# Ignore build folders
+build/
+dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

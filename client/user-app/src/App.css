@@ -1,0 +1,35 @@
+/* Centers the whole page content */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* The box with the border */
+.form-container {
+  border: 1px solid #d1d5db; /* Light grey border */
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px; /* Keeps the form from getting too wide */
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Ensures labels and inputs inside the container are spaced well */
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* If you aren't using Flowbite's Button component, keep this: */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}

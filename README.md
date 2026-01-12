@@ -34,3 +34,37 @@ A full-stack application built using the **MERN** (MongoDB, Express, React, Node
 Enquiry Form Project/
 ├── client/          # React Frontend (user-app)
 └── server/          # Node.js Backend (Express API)
+```
+
+---
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get the project running on your local machine:
+
+### 1. Setup the Backend (Server)
+1. **Navigate to the server folder**:  
+   Open your terminal and type:  
+   `cd server`
+2. **Install dependencies**:  
+   `npm install`
+3. **Configure Environment Variables**:  
+   Create a `.env` file in the `server` folder and add your MongoDB URL:  
+   `MONGODB_URL=your_mongodb_atlas_connection_string`
+4. **Start the server**:  
+   `npm start`
+   *The backend will be live at `http://localhost:8020`*.
+
+### 2. Setup the Frontend (Client)
+1. **Navigate to the client folder**:  
+   Open a new terminal and type:  
+   `cd client/user-app`
+2. **Install dependencies**:  
+   `npm install`
+3. **Start the React app**:  
+   `npm start`
+   *The frontend will open automatically at `http://localhost:3000`*.
+
+---
